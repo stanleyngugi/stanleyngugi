@@ -1,6 +1,6 @@
 # Stanley Ngugi
 
-I am a self-taught AI researcher and computer science student in Nairobi, Kenya. I currently work on reinforcement-learning environments, formal methods, and systems that ground model behavior in executable verification.
+I am a 20-year-old self-taught independent AI researcher. I left college to focus full-time on research in reinforcement-learning environments, formal methods, and systems that ground model behavior in executable verification.
 
 My central question is: **how can learning systems receive feedback that is difficult to imitate, exploit, or satisfy through phrasing alone?**
 
