@@ -1,8 +1,6 @@
 # Stanley Ngugi
 
-I am a 20-year-old self-taught independent AI researcher. I left college to focus full-time on research in reinforcement-learning environments, formal methods, and systems that ground model behavior in executable verification.
-
-My central question is: **how can learning systems receive feedback that is difficult to imitate, exploit, or satisfy through phrasing alone?**
+Independent AI researcher working on reinforcement-learning environments, formal methods, and executable verification.
 
 ## Current work
 
