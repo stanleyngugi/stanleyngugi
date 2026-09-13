@@ -6,7 +6,7 @@ Independent AI researcher working on post-training with reinforcement learning, 
 
 ### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
 
-Instead of rewarding C code for passing a test suite, Formally Verified C C rewards a model only when Frama-C proves that its implementation satisfies a fixed ACSL specification, including runtime-safety obligations. The public alpha includes 64 tasks, an isolated judge, adversarial negative controls, and reproducible proof evidence. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
+Instead of rewarding C code for passing a test suite, Formally Verified C rewards a model only when Frama-C proves that its implementation satisfies a fixed ACSL specification, including runtime-safety obligations. The public alpha includes 64 tasks, an isolated judge, adversarial negative controls, and reproducible proof evidence. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
 
 ### [MathCheck RL](https://github.com/stanleyngugi/mathcheck-rl)
 
