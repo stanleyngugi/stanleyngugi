@@ -14,7 +14,7 @@ The bounded-specification verifier behind MathCheck RL. It builds Lean checks fo
 
 ### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
 
-An RL environment for generating C implementations against fixed ACSL contracts, judged with Frama-C WP+RTE. Ongoing work; a technical article will follow.
+A released RL environment for generating C implementations against fixed ACSL contracts, judged by a fail-closed Frama-C WP+RTE pipeline. The public alpha includes a 64-task Core-v1 corpus, proof-replay evidence, negative controls, and an installable Verifiers v1 package. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
 
 ## Selected writing
 
