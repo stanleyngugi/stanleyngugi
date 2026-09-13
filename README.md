@@ -6,15 +6,15 @@ Independent AI researcher working on post-training with reinforcement learning, 
 
 ### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
 
-A released RL environment for generating C implementations against fixed ACSL contracts, judged by a fail-closed Frama-C WP+RTE pipeline. The public alpha includes a 64-task Core-v1 corpus, proof-replay evidence, negative controls, and an installable Verifiers v1 package. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
+Instead of rewarding C code for passing a test suite, Formally Verified C C rewards a model only when Frama-C proves that its implementation satisfies a fixed ACSL specification, including runtime-safety obligations. The public alpha includes 64 tasks, an isolated judge, adversarial negative controls, and reproducible proof evidence. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
 
 ### [MathCheck RL](https://github.com/stanleyngugi/mathcheck-rl)
 
-An answer-key-free RL environment for bounded mathematical tasks. Models submit an answer or complete finite certificate; a frozen specification and Lean-backed checker determine the reward. [Technical article](https://github.com/stanleyngugi/mathcheck-rl/blob/main/TECHNICAL_ARTICLE.md).
+An RL environment for mathematical reasoning that does not rely on hidden answer keys. Models return an answer or a complete finite certificate, and a frozen problem specification with a Lean-backed checker determines the reward. [Technical article](https://github.com/stanleyngugi/mathcheck-rl/blob/main/TECHNICAL_ARTICLE.md).
 
 ### [MathCheck Engine](https://github.com/stanleyngugi/mathcheck-engine)
 
-The bounded-specification verifier behind MathCheck RL. It builds Lean checks for exact integer results and complete finite pair relations, with explicit verdicts and an opt-in isolated execution path for untrusted input. [Technical article](https://github.com/stanleyngugi/mathcheck-engine/blob/main/TECHNICAL_ARTICLE.md).
+The verification engine behind MathCheck RL. It turns bounded mathematical specifications into Lean checks for exact answers and complete finite relations, returns explicit failure reasons, and can evaluate untrusted model output in isolation. [Technical article](https://github.com/stanleyngugi/mathcheck-engine/blob/main/TECHNICAL_ARTICLE.md).
 
 ## Selected writing
 
