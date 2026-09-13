@@ -4,6 +4,10 @@ Independent AI researcher working on post-training with reinforcement learning, 
 
 ## Current work
 
+### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
+
+A released RL environment for generating C implementations against fixed ACSL contracts, judged by a fail-closed Frama-C WP+RTE pipeline. The public alpha includes a 64-task Core-v1 corpus, proof-replay evidence, negative controls, and an installable Verifiers v1 package. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
+
 ### [MathCheck RL](https://github.com/stanleyngugi/mathcheck-rl)
 
 An answer-key-free RL environment for bounded mathematical tasks. Models submit an answer or complete finite certificate; a frozen specification and Lean-backed checker determine the reward. [Technical article](https://github.com/stanleyngugi/mathcheck-rl/blob/main/TECHNICAL_ARTICLE.md).
@@ -11,10 +15,6 @@ An answer-key-free RL environment for bounded mathematical tasks. Models submit 
 ### [MathCheck Engine](https://github.com/stanleyngugi/mathcheck-engine)
 
 The bounded-specification verifier behind MathCheck RL. It builds Lean checks for exact integer results and complete finite pair relations, with explicit verdicts and an opt-in isolated execution path for untrusted input. [Technical article](https://github.com/stanleyngugi/mathcheck-engine/blob/main/TECHNICAL_ARTICLE.md).
-
-### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
-
-A released RL environment for generating C implementations against fixed ACSL contracts, judged by a fail-closed Frama-C WP+RTE pipeline. The public alpha includes a 64-task Core-v1 corpus, proof-replay evidence, negative controls, and an installable Verifiers v1 package. [Technical article](https://github.com/stanleyngugi/formally-verified-code-rl/blob/main/docs/BLOG_POST_DRAFT.md).
 
 ## Selected writing
 
