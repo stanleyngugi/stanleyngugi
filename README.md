@@ -18,13 +18,13 @@ The verification engine behind MathCheck RL. It turns bounded mathematical speci
 
 ## Selected writing
 
-- [Grammars for AI Proof Steps](https://github.com/stanleyngugi/ai-proof-grammars) — two articles and reproducible experiments on grammar-guided Lean tactic generation.
-- [Taming Incidental Polysemanticity in Toy Models](https://stanleyngugi.netlify.app/posts/taming_polysemanticity) — a research note on training choices and feature-entanglement proxies in toy networks.
+- [Grammars for AI Proof Steps](https://github.com/stanleyngugi/ai-proof-grammars): two articles and reproducible experiments on grammar-guided Lean tactic generation.
+- [Taming Incidental Polysemanticity in Toy Models](https://stanleyngugi.netlify.app/posts/taming_polysemanticity): a research note on training choices and feature-entanglement proxies in toy networks.
 
 ## Earlier research
 
-- [Targeted Lexical Injection](https://arxiv.org/abs/2506.15415) — early-layer LoRA experiments for Swahili–English lexical alignment.
-- [Surgical Knowledge Rewrite in Compact LLMs](https://arxiv.org/abs/2508.07075) — an early exploratory study of circuit-localized, two-stage IA³ knowledge editing.
+- [Targeted Lexical Injection](https://arxiv.org/abs/2506.15415): early-layer LoRA experiments for Swahili–English lexical alignment.
+- [Surgical Knowledge Rewrite in Compact LLMs](https://arxiv.org/abs/2508.07075): an early exploratory study of circuit-localized, two-stage IA³ knowledge editing.
 
 These preprints are part of my earlier research; my present work centers on RL environments and formal verification.
 
