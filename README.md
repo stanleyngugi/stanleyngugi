@@ -2,6 +2,8 @@
 
 Independent AI researcher working on post-training with reinforcement learning, RL environments, and formal verification.
 
+[Website and technical articles](https://stanleyngugi.netlify.app/)
+
 ## Current work
 
 ### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
