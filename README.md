@@ -1,35 +1,37 @@
-# Stanley Ngugi
+## Stanley Ngugi
 
-Independent AI researcher working on post-training with reinforcement learning, RL environments, and formal verification.
+I am a 20-year-old independent self-taught researcher currently focused on post-training via RL, building RL environments, and Formal Verification. I recently dropped out of college to pursue doing research independently.
 
 ## Current work
 
 ### [Formally Verified C](https://github.com/stanleyngugi/formally-verified-code-rl)
 
-Instead of rewarding C code for passing a test suite, Formally Verified C rewards a model only when Frama-C proves that its implementation satisfies a fixed ACSL specification, including runtime-safety obligations. The public alpha includes 64 tasks, an isolated judge, adversarial negative controls, and reproducible proof evidence. [Technical article](https://stanleyngugi.netlify.app/posts/formally-verified-c.html).
+An RL environment where the model is rewarded based on the results of running Frama-C on generated C code, against a fixed input ACSL specification. Verification includes runtime-safety obligations. A full reward is awarded only when all the proofs succeed and some other integrity checks related to keeping the contract fixed pass. Partial rewards are awarded for successful parsing and the fraction of proof obligations discharged. This is currently a public alpha, with 64 tasks available to play with. The judge is isolated, and some adversarial negative controls are used to test whether the judge rejects incorrect implementations. It also produces reproducible proof evidence that can be re-run. Read the [technical article here.](https://stanleyngugi.netlify.app/posts/formally-verified-c.html)
 
 ### [MathCheck RL](https://github.com/stanleyngugi/mathcheck-rl)
 
-An RL environment for mathematical reasoning that does not rely on hidden answer keys. Models return an answer or a complete finite certificate, and a frozen problem specification with a Lean-backed checker determines the reward. [Technical article](https://stanleyngugi.netlify.app/posts/mathcheck-rl.html).
+An RL environment for doing bounded mathematical reasoning, that doesn't rely on answer keys in the primary mode of specification. The model either has to give an integer answer, or a complete finite certificate for the answer. The problem specification is frozen, and a checker in Lean is used to compute reward. Read the [technical article here.](https://stanleyngugi.netlify.app/posts/mathcheck-rl.html)
 
 ### [MathCheck Engine](https://github.com/stanleyngugi/mathcheck-engine)
 
-The verification engine behind MathCheck RL. It turns bounded mathematical specifications into Lean checks for exact answers and complete finite relations, returns explicit failure reasons, and can evaluate untrusted model output in isolation. [Technical article](https://stanleyngugi.netlify.app/posts/mathcheck-engine.html).
+The engine used for MathCheck RL. It is a verification engine that can be used to check answers to bounded mathematical problems. It works by translating the bounded specification into a check that is run in Lean. It can check exact answers, and complete finite relations. It gives reasons for failure, and can be run on untrusted model outputs in an isolated manner. Read the [technical article here.](https://stanleyngugi.netlify.app/posts/mathcheck-engine.html)
 
 ## Selected writing
 
-- [Grammars for AI Proof Steps](https://github.com/stanleyngugi/ai-proof-grammars): two articles and reproducible experiments on grammar-guided Lean tactic generation.
-- [Taming Incidental Polysemanticity in Toy Models](https://stanleyngugi.netlify.app/posts/taming_polysemanticity): a research note on training choices and feature-entanglement proxies in toy networks.
+[Grammars for AI Proof Steps](https://github.com/stanleyngugi/ai-proof-grammars): Two articles and some reproducible experiments related to using grammars to guide generation of Lean tactics.
+
+[Taming Incidental Polysemanticity in Toy Models](https://stanleyngugi.netlify.app/posts/taming_polysemanticity): A research note on different training choices and proxies for measuring feature entanglement in toy networks.
 
 ## Earlier research
 
-- [Targeted Lexical Injection](https://arxiv.org/abs/2506.15415): early-layer LoRA experiments for Swahili–English lexical alignment.
-- [Surgical Knowledge Rewrite in Compact LLMs](https://arxiv.org/abs/2508.07075): an early exploratory study of circuit-localized, two-stage IA³ knowledge editing.
+These preprints are from earlier in my research journey. My current focus is on RL environments and formal verification.
 
-These preprints are part of my earlier research; my present work centers on RL environments and formal verification.
+[Targeted Lexical Injection](https://arxiv.org/abs/2506.15415): Experiments on doing lexical alignment between Swahili and English via early layer LoRAs.
+
+[Surgical Knowledge Rewrite in Compact LLMs](https://arxiv.org/abs/2508.07075): An early exploration into doing knowledge editing via localizing circuits and using a two stage IA³ approach.
 
 ## Writing
 
-I publish research notes and technical essays at [stanleyngugi.netlify.app](https://stanleyngugi.netlify.app/).
+I write some research notes and technical essays on my [website.](https://stanleyngugi.netlify.app/)
 
-Research questions, criticism, and collaboration proposals are welcome through the contact links on my website.
+If you have any questions, criticism, or proposals for research, feel free to contact me via the links on my [website.](https://stanleyngugi.netlify.app/)
